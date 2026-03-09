@@ -31,7 +31,7 @@ jobs:
           api = HfApi(token=os.environ["HF_TOKEN"])
           api.upload_folder(
               folder_path=".",
-              repo_id="susanngatia/whisper-banana",
+              repo_id="susanngatia/hodi-ai",
               repo_type="space",
               ignore_patterns=[
                   ".git/",
