@@ -15,8 +15,8 @@ app.config['MAX_CONTENT_LENGTH'] = 500 * 1024 * 1024  # 500MB max
 VIDEOS_DIR = "videos"
 RESULTS_DIR = "results"
 CORRECTIONS_DIR = "training/corrections"
-# Set NIRU_LIBRARY_DIR env var to override (e.g. to point at H:/)
-LIBRARY_DIR = os.environ.get("NIRU_LIBRARY_DIR", "H:/")
+# Set HODI_LIBRARY_DIR env var to override (e.g. to point at H:/)
+LIBRARY_DIR = os.environ.get("HODI_LIBRARY_DIR", "H:/")
 SUPPORTED_EXTS = ('.mp4', '.avi', '.mov', '.mxf')
 
 # Single-slot processing state — one video at a time
@@ -119,7 +119,7 @@ def trigger_process():
         try:
             # Lazy import — avoids loading torch/whisper at Flask startup
             from process_videos import VideoProcessor
-            whisper_size = os.environ.get("NIRU_WHISPER_MODEL", "small")
+            whisper_size = os.environ.get("HODI_WHISPER_MODEL", "small")
             processor = VideoProcessor(whisper_model_size=whisper_size)
             processor.load_models()
             processor.process_video(filepath)
@@ -177,7 +177,7 @@ def retranscribe():
         try:
             from process_videos import VideoProcessor
             from datetime import datetime
-            whisper_size = os.environ.get("NIRU_WHISPER_MODEL", "small")
+            whisper_size = os.environ.get("HODI_WHISPER_MODEL", "small")
             processor = VideoProcessor(whisper_model_size=whisper_size)
             processor.load_models()
 

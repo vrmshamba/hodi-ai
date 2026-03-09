@@ -1,7 +1,7 @@
 """
 training/training.py
 
-YOLOv8 fine-tuning script for NIRU — Nairobi street footage.
+YOLOv8 fine-tuning script for HodiAI — Nairobi street footage.
 
 RECOMMENDED WORKFLOW (Roboflow)
 --------------------------------
@@ -45,7 +45,7 @@ from pathlib import Path
 # Paths (relative to project root, two levels up from this file)
 # ---------------------------------------------------------------------------
 THIS_DIR    = Path(__file__).parent                          # training/
-PROJECT_DIR = THIS_DIR.parent                                # H:/NIRU_MVP_Dev
+PROJECT_DIR = THIS_DIR.parent                                # H:/HodiAI_Dev
 FRAMES_DIR  = PROJECT_DIR / "annotation_frames"
 LABELS_DIR  = PROJECT_DIR / "annotation_labels"
 PREPARED    = THIS_DIR / "prepared"
@@ -224,7 +224,7 @@ def train_model(epochs: int, imgsz: int, batch: int, device: str,
         batch=batch,
         device=device,
         project=str(PROJECT_DIR / "runs" / "detect"),
-        name="niru_nairobi",
+        name="hodi_nairobi",
         exist_ok=True,
         pretrained=True,
         patience=15,          # early stopping: stop if no improvement for 15 epochs
@@ -233,12 +233,12 @@ def train_model(epochs: int, imgsz: int, batch: int, device: str,
         verbose=True,
     )
 
-    best_weights = PROJECT_DIR / "runs" / "detect" / "niru_nairobi" / "weights" / "best.pt"
+    best_weights = PROJECT_DIR / "runs" / "detect" / "hodi_nairobi" / "weights" / "best.pt"
     if best_weights.exists():
         print(f"\n[train] Done. Best weights: {best_weights}")
-        print(f"[train] Copy to models/ with: cp {best_weights} models/niru_nairobi.pt")
+        print(f"[train] Copy to models/ with: cp {best_weights} models/hodi_nairobi.pt")
     else:
-        print("\n[train] Done. Check runs/detect/niru_nairobi/ for outputs.")
+        print("\n[train] Done. Check runs/detect/hodi_nairobi/ for outputs.")
 
 
 def print_class_summary() -> None:
@@ -294,7 +294,7 @@ def print_class_summary() -> None:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="NIRU YOLOv8 fine-tuning — prepare dataset and/or train model."
+        description="HodiAI YOLOv8 fine-tuning — prepare dataset and/or train model."
     )
     parser.add_argument("--prepare-only",   action="store_true",
                         help="Prepare dataset only; do not train.")

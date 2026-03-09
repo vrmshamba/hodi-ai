@@ -1,4 +1,4 @@
-# NIRU Video Intelligence Platform (MVP)
+# HodiAI Video Intelligence Platform
 
 A prototype system for AI-powered video analysis, featuring speech-to-text, object detection, safety screening, and insertion point identification.
 

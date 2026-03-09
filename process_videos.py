@@ -75,7 +75,7 @@ class VideoProcessor:
         print("Whisper model loaded.")
         
         print("Loading YOLO model...")
-        custom_model = os.path.join(self.models_dir, "niru_nairobi.pt")
+        custom_model = os.path.join(self.models_dir, "hodi_nairobi.pt")
         base_model   = os.path.join(self.models_dir, "yolov8n.pt")
         if os.path.exists(custom_model):
             self.yolo_model = YOLO(custom_model)
@@ -83,7 +83,7 @@ class VideoProcessor:
         else:
             self.yolo_model = YOLO(base_model)   # downloads to models/ if not present
             print(f"Loaded base YOLO model: {base_model}")
-            print("  (train and place models/niru_nairobi.pt to use the custom model)")
+            print("  (train and place models/hodi_nairobi.pt to use the custom model)")
 
     def process_video(self, video_path):
         filename = os.path.basename(video_path)
@@ -512,7 +512,7 @@ If there is no speech, return text as empty string and segments as [].
         print(f"Saved results to {path}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="NIRU video processing pipeline")
+    parser = argparse.ArgumentParser(description="HodiAI video processing pipeline")
     parser.add_argument(
         "--source-dir",
         default="videos",

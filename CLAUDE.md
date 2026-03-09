@@ -1,4 +1,4 @@
-# NIRU MVP - Claude Code Guide
+# HodiAI - Claude Code Guide
 
 ## Project Overview
 AI-powered video analysis pipeline for Kenyan media content. Processes local video files through Whisper (speech-to-text) and YOLOv8 (object detection), then serves results via a Flask dashboard.

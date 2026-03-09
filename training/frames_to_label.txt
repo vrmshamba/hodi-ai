@@ -54,53 +54,53 @@ RANK  SCORE  VIDEO                                         FRAME        SIGNALS
 50    72     CBD Cabro 20th June 2025                      frame_00167  nganya:20  city_hoppa:10  conductor:20  hawkers:12  pothole:10
 
 Image paths:
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00145.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00148.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00105.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00107.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00140.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00108.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00147.jpg
-H:\NIRU_MVP_Dev\annotation_frames\BUSES,STRANDED BUST STOP1\frame_00122.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD TRAFFIC\frame_00004.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00006.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00104.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00112.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00142.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00143.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00141.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00014.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00119.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00139.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00005.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00025.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00017.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00151.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00153.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00155.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00000.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00001.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00003.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00004.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00017.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00020.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00001.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00002.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00004.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00007.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00008.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00012.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00020.jpg
-H:\NIRU_MVP_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00023.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00146.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00154.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00156.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00157.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00159.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00161.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00162.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00163.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00164.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00165.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00166.jpg
-H:\NIRU_MVP_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00167.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00145.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00148.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00105.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00107.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00140.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00108.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00147.jpg
+H:\HodiAI_Dev\annotation_frames\BUSES,STRANDED BUST STOP1\frame_00122.jpg
+H:\HodiAI_Dev\annotation_frames\CBD TRAFFIC\frame_00004.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00006.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00104.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00112.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00142.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00143.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00141.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00014.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00119.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00139.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00005.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00025.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00017.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00151.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00153.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00155.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00000.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00001.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00003.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00004.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00017.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS CBD\frame_00020.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00001.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00002.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00004.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00007.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00008.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00012.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00020.jpg
+H:\HodiAI_Dev\annotation_frames\AERIAL MATATUS NRB\frame_00023.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00146.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00154.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00156.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00157.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00159.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00161.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00162.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00163.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00164.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00165.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00166.jpg
+H:\HodiAI_Dev\annotation_frames\CBD Cabro 20th June 2025\frame_00167.jpg

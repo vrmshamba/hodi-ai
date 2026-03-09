@@ -1,8 +1,8 @@
-# NIRU Video Intelligence Platform - MVP Product Requirements Document
+# HodiAI Video Intelligence Platform - Product Requirements Document
 
 **Version:** 1.0  
 **Date:** December 30, 2024  
-**Target:** NIRU Hackathon Demo (10 days)  
+**Target:** HodiAI Demo (10 days)  
 **Owner:** Mediatec Africa  
 
 ---
@@ -50,7 +50,7 @@ Current gaps:
 
 ## User Personas
 
-### Primary: NIRU Hackathon Judges
+### Primary: HodiAI Stakeholders
 
 **Goals:**
 - Evaluate technical feasibility
@@ -281,7 +281,7 @@ Current gaps:
 ### File Structure
 
 ```
-niru-mvp/
+hodiai-dev/
 ├── requirements.txt          # Python dependencies
 ├── setup.py                  # Installation script
 ├── download_videos.py        # Google Drive downloader
@@ -539,8 +539,8 @@ The following features were built beyond the original MVP scope. They represent 
 - `POST /api/process` — starts background processing for a single file; single-slot queue returns 409 if busy
 - `GET /api/process/status` — polling endpoint returning current processing state (idle / processing / done / error)
 - Live processing banner in the dashboard UI — displays filename and animated spinner while a job is running
-- `NIRU_LIBRARY_DIR` environment variable for configurable library path
-- `NIRU_WHISPER_MODEL` environment variable for configurable Whisper model size
+- `HODI_LIBRARY_DIR` environment variable for configurable library path
+- `HODI_WHISPER_MODEL` environment variable for configurable Whisper model size
 
 ### Feature 9: Transcript Correction UI
 
@@ -563,7 +563,7 @@ The following features were built beyond the original MVP scope. They represent 
 - `extract_and_annotate.py` — frame extraction and COCO auto-label generation for bootstrapping
 - `training/rank_frames.py` — ranks annotation frames by detection diversity for efficient manual labelling
 - `training/setup_label_studio.py` — Label Studio integration helper
-- Pipeline auto-loads `models/niru_nairobi.pt` if present; falls back to `yolov8n.pt`
+- Pipeline auto-loads `models/hodi_nairobi.pt` if present; falls back to `yolov8n.pt`
 
 ### Feature 11: MXF Format and Browser-Compatible Video Output
 

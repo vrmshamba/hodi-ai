@@ -1,4 +1,4 @@
-# NIRU MVP - Deployment & Demo Guide
+# HodiAI - Deployment & Demo Guide
 
 This guide ensures you are ready to show your project to judges today/tomorrow.
 
@@ -31,7 +31,7 @@ Judges will want to see your codebase.
     git commit -m "Initial MVP: Video Intelligence Platform"
     ```
 2.  **Create Repository on GitHub:**
-    Go to [github.com/new](https://github.com/new), create a repository named `NIRU_MVP`, and follow the instructions to push your code.
+    Go to [github.com/new](https://github.com/new), create a repository named `HodiAI_Dev`, and follow the instructions to push your code.
 
 ---
 

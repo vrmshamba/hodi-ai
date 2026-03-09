@@ -1,7 +1,7 @@
 """
 training/setup_label_studio.py
 
-Creates a Label Studio project for NIRU with:
+Creates a Label Studio project for HodiAI with:
 - 20 Nairobi class bounding-box labels
 - All 50 prioritised frames imported as tasks
 
@@ -18,8 +18,8 @@ import urllib.parse
 from pathlib import Path
 
 LS_URL  = "http://localhost:8080"
-EMAIL   = "admin@niru.local"
-PASSWORD = "niru1234"
+EMAIL   = "admin@hodiai.local"
+PASSWORD = "hodiai1234"
 
 THIS_DIR    = Path(__file__).parent
 PROJECT_DIR = THIS_DIR.parent
@@ -64,7 +64,7 @@ def get_token() -> str:
     try:
         result = api("POST", "/api/user/signup", {
             "email": EMAIL, "password": PASSWORD,
-            "first_name": "NIRU", "last_name": "Admin",
+            "first_name": "HodiAI", "last_name": "Admin",
         })
         token = result.get("token", "")
         if token:
@@ -90,7 +90,7 @@ def get_token_v2() -> str:
     try:
         api("POST", "/api/user/signup", {
             "email": EMAIL, "password": PASSWORD,
-            "first_name": "NIRU", "last_name": "Admin",
+            "first_name": "HodiAI", "last_name": "Admin",
         })
         print(f"[setup] Account created: {EMAIL}")
     except RuntimeError as e:
@@ -142,7 +142,7 @@ def main():
     try:
         api("POST", "/api/user/signup", {
             "email": EMAIL, "password": PASSWORD,
-            "first_name": "NIRU", "last_name": "Admin",
+            "first_name": "HodiAI", "last_name": "Admin",
         })
         print(f"[setup] Account created: {EMAIL}  password: {PASSWORD}")
     except RuntimeError as e:
@@ -177,7 +177,7 @@ def main():
     # --- create project ---
     label_config = build_label_config()
     project = api("POST", "/api/projects", {
-        "title": "NIRU — Nairobi Street Annotation",
+        "title": "HodiAI — Nairobi Street Annotation",
         "description": "Manual annotation of 20 custom Nairobi classes for YOLOv8 fine-tuning.",
         "label_config": label_config,
     }, token=token)

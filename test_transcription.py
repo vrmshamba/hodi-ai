@@ -5,7 +5,7 @@ if __name__ == "__main__":
     processor = VideoProcessor()
     processor.load_models()
     
-    video_path = r"d:\NIRU_MVP_Dev\videos\documentary isiolo.mp4"
+    video_path = r"d:\HodiAI_Dev\videos\documentary isiolo.mp4"
     if os.path.exists(video_path):
         print(f"Testing transcription on: {video_path}")
         try:
