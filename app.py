@@ -275,4 +275,5 @@ if __name__ == '__main__':
     os.makedirs(RESULTS_DIR, exist_ok=True)
     
     # Run with host 0.0.0.0 for external access
-    app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
+    port = int(os.environ.get("PORT", 7860))
+    app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
