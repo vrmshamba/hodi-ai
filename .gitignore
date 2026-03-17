@@ -27,6 +27,7 @@ annotation_frames/
 annotation_labels/*/
 annotation_frames_roboflow*.zip
 *.zip
+runs/
 
 # IDEs
 .vscode/
