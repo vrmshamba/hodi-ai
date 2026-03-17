@@ -85,6 +85,7 @@ def get_library():
                 processed = os.path.exists(os.path.join(RESULTS_DIR, f"{stem}_analysis.json"))
                 files.append({
                     "name": f,
+                    "path": f,
                     "size_mb": round(os.path.getsize(full_path) / 1024 / 1024, 1),
                     "processed": processed,
                 })
@@ -102,6 +103,7 @@ def trigger_process():
         return jsonify({"error": "Missing 'filename' in request body"}), 400
 
     filename = data['filename']
+    # 'filename' may be a relative path like "GREEN PARK TERMINUS/foo.mp4"
     filepath = os.path.join(LIBRARY_DIR, filename)
 
     if not os.path.isfile(filepath):

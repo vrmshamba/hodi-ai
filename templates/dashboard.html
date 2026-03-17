@@ -1916,10 +1916,11 @@
                     ? '<span class="badge-processed">✓ Processed</span>'
                     : '<span class="badge-unprocessed">Not processed</span>';
 
-                const safeFilename = file.name.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+                const safePath = (file.path || file.name).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+                const safeName = file.name.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
                 const actionBtn = file.processed
-                    ? `<button class="btn-view-results" onclick="switchTab('results')">View Results</button>`
-                    : `<button class="btn-process" onclick="processVideo('${safeFilename}')"${_isProcessing ? ' disabled' : ''}>Process</button>`;
+                    ? `<button class="btn-view-results" onclick="viewResult('${safeName}')">View Results</button>`
+                    : `<button class="btn-process" onclick="processVideo('${safePath}')"${_isProcessing ? ' disabled' : ''}>Process</button>`;
 
                 card.innerHTML = `
                     <div class="library-card-name">${file.name}</div>
@@ -1931,6 +1932,22 @@
                 `;
                 grid.appendChild(card);
             });
+        }
+
+        // ── View result for a specific video ──
+        function viewResult(filename) {
+            switchTab('results');
+            // Wait for results tab to render, then scroll to matching card
+            setTimeout(() => {
+                const cards = document.querySelectorAll('.tx-video-header');
+                for (const card of cards) {
+                    if (card.textContent.includes(filename.replace(/\.[^.]+$/, ''))) {
+                        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        card.click();
+                        break;
+                    }
+                }
+            }, 300);
         }
 
         // ── Processing ──

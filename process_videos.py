@@ -75,7 +75,8 @@ class VideoProcessor:
         print("Whisper model loaded.")
         
         print("Loading YOLO model...")
-        custom_model = os.path.join(self.models_dir, "hodi_nairobi.pt")
+        env_model    = os.environ.get("MODEL_PATH")
+        custom_model = env_model if env_model else os.path.join(self.models_dir, "hodi_nairobi.pt")
         base_model   = os.path.join(self.models_dir, "yolov8n.pt")
         if os.path.exists(custom_model):
             self.yolo_model = YOLO(custom_model)
